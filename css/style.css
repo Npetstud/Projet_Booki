@@ -54,6 +54,33 @@ body {
     color: var(--main-bg-color)
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+nav a {
+      margin-left: 30px;
+  }
+
+  form {
+    border-radius: 15px;
+border: 1px solid var(--grey, #F2F2F2);
+background: var(--white, #FFF); 
+display: flex;
+width: 377px;
+height: 49px;
+align-items: center;
+gap: 24px;
+  }
+
+  button {border-radius: 0px 15px 15px 0px;
+    border: 1px solid var(--blue, #0065FC);
+    background: var(--blue, #0065FC);
+color: white;}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -66,12 +93,52 @@ body {
     padding: 30px;
     box-sizing: border-box;
 }
-/* aa */
+
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
 }
 
+.hebergements-cards .card{
+    display: flex;
+    margin-top: 33px;
+    flex-direction: column;
+
+}
+
+.hebergements-cards img{
+    height: 136px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hebergements-cards .card-content{
+    width: 67%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin: 0;
+}
+
+.hebergements-cards .card-rating {
+    margin-bottom: 5px;
+}
+
+
+.box3photos {
+    display: flex;
+    flex-direction: row;
+}
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -117,32 +184,7 @@ body {
     margin-bottom: 5px;
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
 
-nav a {
-      margin-left: 30px;
-  }
-
-  form {
-    border-radius: 15px;
-border: 1px solid var(--grey, #F2F2F2);
-background: var(--white, #FFF); 
-display: flex;
-width: 377px;
-height: 49px;
-align-items: center;
-gap: 24px;
-  }
-
-  button {border-radius: 0px 15px 15px 0px;
-    border: 1px solid var(--blue, #0065FC);
-    background: var(--blue, #0065FC);
-color: white;}
 
 
 
