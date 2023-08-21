@@ -81,6 +81,30 @@ gap: 24px;
     background: var(--blue, #0065FC);
 color: white;}
 
+.filtres {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filtres a:hover {
+    background-color: #DEEBFF;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.lien {
+    display: inline-block;
+    margin-left: 20px;
+    border: solid;
+    border-color: #caccce;
+    border-radius: 30px;
+    padding: 10px;
+
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
