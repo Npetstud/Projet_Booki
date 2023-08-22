@@ -54,6 +54,7 @@ body {
     color: var(--main-bg-color)
 }
 
+/* Modif HEADER et Filtres */
 header {
     display: flex;
     flex-direction: row;
@@ -216,9 +217,66 @@ button {
     margin-bottom: 5px;
 }
 
+/* Activites */
+.activites img{
+    width: 290px;
+    height: 380px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover   ;
+    
+}
 
 
+.activites-card{
+    display: flex;
+}
 
+.activites .card{
+    border: none;
+}
+
+.card-activites {
+    box-shadow: -1px 2px 14px 0px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 1em;
+}
+
+.activites .card-title{
+    padding-left: 1em;
+}
+
+.activites-title {
+    margin: 1em;
+}
+
+.activites {
+    margin-bottom: 5em;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: var(--main-bg-color);
+    padding: 20px;
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+ }    
+
+ .contacts {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20%;
+ }
+
+ .contacts a{
+    padding-bottom: 15px;
+ }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
