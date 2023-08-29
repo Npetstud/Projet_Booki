@@ -63,13 +63,36 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 
 nav a {
       margin-left: 30px;
-  }
+        }
+nav a:hover{
+    border-top: 1px solid #0065FC ;
+    padding-bottom: 1em;
+    color: #0065FC;
+    padding-top: 20px;
 
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+}
+p .fa-solid{
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 8px;
+    height: 10px;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
 
 
 .filtres {
@@ -138,6 +161,14 @@ button {
 
 header img{
     height: 30px;
+}
+
+button i{
+    visibility: hidden
+}
+
+.r{
+    display: inline-block;
 }
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -332,14 +363,42 @@ footer{
         display: flex;
         flex-direction: column;
     }
-    nav{
+    header img{
+        padding-top: 1em;
+        padding-bottom: 2em;
+        padding-left: 8em;
+        width: 30%;
+    }
+    nav {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        gap: 30px;
+        
+       
+    }
+    nav a{
+        width: 50%;
+        margin: 0;
+        padding-left: 30px;
+        padding-bottom: 1em;
+    }
+    nav a:hover{
+        border-bottom: 1px solid #0065FC ;
+        padding-bottom: 1em;
+        color: #0065FC;
     }
     .Map{
         width: 100%;
-        margin:;
+        
+    }
+    button .r{
+        visibility: hidden;
+        position: absolute;
+    }
+    button i{
+        visibility: inherit;
+        position: inherit;
+        padding: 10px;
     }
     .filtres{
         display: flex;
@@ -408,6 +467,29 @@ footer{
         padding: inherit;
         
     }
+    .hebergements-cards img{
+        width: -moz-available ;
+    }
+    .activites img{
+        width: -moz-available;
+        height: 140px;
+    }
+    .card-activites{
+    margin-left: 30px;
+    height: 185px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    }
+    .activites{
+        margin-bottom: 2em;
+    }
+    h1{
+        font-size: 30px;  
+     }
+     .titre{
+        padding: 20px;
+     }
+
 }
 
 
