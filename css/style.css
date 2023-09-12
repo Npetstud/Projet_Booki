@@ -426,6 +426,12 @@ footer{
         border-top: none;
         padding-top: 0em;
     }
+    h1{
+        font-size: 25px;  
+     }
+     .titre{
+        padding: 0px 10px 0px 10px;
+     }
     button .r{
         visibility: hidden;
         position: absolute;
@@ -434,6 +440,9 @@ footer{
         visibility: inherit;
         position: inherit;
         padding: 10px;
+    }
+    .row-tablet{
+        flex-direction: column;
     }
     span{
         visibility: hidden;
@@ -451,26 +460,15 @@ footer{
         width: 100%;
         padding-bottom: 1em;
 
-    }
-    h1{
-        font-size: 25px;  
-     }
-     .titre{
-        padding: 0px 10px 0px 10px;
-     }
-     .row-tablet{
-        flex-direction: column;
-     }
+    } 
 
     .hebergements-and-populaires {
         flex-direction: column-reverse;
         width: 100%;
     }
-
     .hebergements-and-populaires .hebergements{
         background-color: white;
     }
-
     .hebergements {
         width: 100%;
         }
@@ -479,46 +477,30 @@ footer{
         flex-direction: column;
         gap: inherit;
     }
-
+    .hebergements-cards img{
+        width:100%;
+    }
     .populaires {
         width: 100%;
         margin-top: 50px;
     }
-
     .populaires-cards {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
-
     .populaires-cards .card {
         width: 100%;
     }
-
     .populaires-cards .card-title {
         font-size: 14px;
     }
-
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-
     .activites-card{
         display: flex;
         flex-direction: column;
-    }
-
-    footer{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .main-container{
-        padding: inherit;
-        
-    }
-    .hebergements-cards img{
-        width:100%;
     }
     .activites img{
         width: 100%;
@@ -533,6 +515,16 @@ footer{
     .activites{
         margin-bottom: 2em;
     }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-container{
+        padding: inherit;
+        
+    }
+   
    
      
 
